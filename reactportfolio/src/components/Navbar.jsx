@@ -2,7 +2,7 @@ import React from 'react'
 import {CircleUser} from 'lucide-react';
 import {Link} from 'react-router-dom'
 
-const navbar = () => {
+const Navbar = () => {
 
    const navdata=[{
     title:'Home',
@@ -39,4 +39,4 @@ const navbar = () => {
   )
 }
 
-export default navbar
+export default Navbar
