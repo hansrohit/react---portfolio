@@ -6,3 +6,8 @@
     margin: 0px;
     padding: 0px;
 }
+
+.active{
+    background-color: rgb(72, 72, 72);
+    color: aliceblue;
+}
