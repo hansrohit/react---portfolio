@@ -4,6 +4,7 @@ import jinju from '../assets/img/hans rohit(pic).jpg'
 import jinju1 from '../assets/img/jinju1.jpg'
 import jinju2 from '../assets/img/jinju2.jpg'
 import jinju3 from '../assets/img/jinju3.jpg'
+import jinju4 from '../assets/img/jinju4.png'
 import { Github,LinkedinIcon, MailPlus } from 'lucide-react';
 
 const home = () => {
@@ -12,7 +13,7 @@ const home = () => {
 
   return (
     <>
-     <div className='h-[100%] w-full fixed flex justify-center items-center'>
+     <div className='h-[100%] w-full roboto-bold-italic fixed flex justify-center items-center'>
       <div className='text-white justify-start flex items-center h-[80%] w-[95%]'>
         <div className='flex flex-col justify-end items-start h-[90%] w-[60%]'>
           {/* <div className='border-2 h-[12%] flex justify-start items-center font-bold text-xl w-full'>Hello, It's me</div> */}
@@ -26,7 +27,7 @@ const home = () => {
           </div>
         </div>
         <div className='h-[90%] w-[40%]  flex justify-center items-center'>
-          <div className='h-[90%] w-[80%] flex justify-center items-center border-none rounded-full'><img src={jinju} alt="" className='border-2 h-[100%] w-[100%] rounded-full border-none hover:animate-pulse' /></div>
+          <div className='h-[90%] w-[80%] flex justify-center items-center border-none rounded-full'><img src={jinju4} alt="" className='border-2 h-[100%] w-[100%] rounded-full border-none hover:animate-pulse' /></div>
         </div>
       </div>
      </div>
