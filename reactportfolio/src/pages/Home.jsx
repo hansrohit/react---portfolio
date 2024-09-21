@@ -26,7 +26,7 @@ const home = () => {
           </div>
         </div>
         <div className='h-[90%] w-[40%]  flex justify-center items-center'>
-          <div className='h-[90%] w-[80%] flex justify-center items-center rounded-full'><img src={jinju} alt="" className='border-2 h-[100%] w-[100%] rounded-full hover:animate-pulse' /></div>
+          <div className='h-[90%] w-[80%] flex justify-center items-center border-none rounded-full'><img src={jinju} alt="" className='border-2 h-[100%] w-[100%] rounded-full border-none hover:animate-pulse' /></div>
         </div>
       </div>
      </div>

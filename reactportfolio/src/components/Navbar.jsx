@@ -29,7 +29,7 @@ const Navbar = () => {
     
   return (
     <>
-    <div className='bg-cyan-900 bg-opacity-35 rounded-sm h-[4rem] w-full flex justify-around items-center absolute z-50 top-0'>
+    <div className='bg-transparent bg-opacity-35 rounded-sm h-[4rem] w-full flex justify-around items-center absolute z-50 top-0'>
           <div className='h-full w-[95%] flex justify-center items-center '>
             <div className='flex h-full w-full justify-start items-center text-gray-200 '><h1 className='font-bold'><Link to='/'>Portfolio.</Link></h1></div>
            <div className='flex justify-end items-center h-full w-[50%]'>
