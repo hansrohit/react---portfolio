@@ -1,11 +1,11 @@
-import React from 'react'
+import React from "react";
 
 const contact = () => {
   return (
-    <div className='quack h-[100%] fixed w-[100%]'>
+    <div className="border-2 h-screen w-[100%]">
       <div>Project here</div>
-    </div> 
-     )
-}
+    </div>
+  );
+};
 
-export default contact
+export default contact;

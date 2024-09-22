@@ -30,16 +30,16 @@ const project = () => {
 
   return (
     <>
-      <div className="h-screen border-2 w-full flex justify-center items-center">
+      <div className="h-screen w-full flex justify-center items-center">
         {/* <div className="h-[90%] w-full border-2 flex flex-col justify-center items-center"> */}
-        <div className=" justify-items-center grid- grid grid-cols-3 items-center h-[95%] gap-7 w-[95%] border-2">
+        <div className=" justify-items-center grid- grid grid-cols-3 items-center h-[95%] gap-7 w-[95%]">
           {arr.map((val, index) => (
             <div
               key={index}
-              className="h-auto w-auto rounded-md quack shadow-lg border-2 flex flex-col gap-1 justify-center place-items-center"
+              className="hover:scale-110 hover:shadow-md transition duration-300 ease-in-out h-auto w-auto rounded-md quack shadow-lg flex flex-col gap-1 justify-center place-items-center"
             >
               <div>
-                <img src={val.photo} alt="hehe" />
+                <img src={val.photo} alt="hehe" className="rounded-md" />
               </div>
               <div>
                 <h2 className="font-extrabold text-center">{val.title}</h2>
@@ -49,12 +49,12 @@ const project = () => {
                   {val.description}
                 </p>
               </div>
-              <div className="border-2 h-[10%] text-justify w-full flex justify-between">
-                <div className="h-full w-auto border-2 text-justify rounded-md bg-black/20">
+              <div className=" h-[10%] text-justify w-full flex justify-between">
+                <div className="h-full w-auto border-2 border-gray-400 text-justify rounded-md hover:text-slate-100 bg-black/15 hover:bg-zinc-700">
                   <a href="">view</a>
                 </div>
-                <div className="h-full w-auto border-2 text-justify rounded-md bg-black/20">
-                  <a href="" target="_blank">
+                <div className="h-full w-auto border-2 border-gray-400 text-justify rounded-md hover:text-slate-100 bg-black/15 hover:bg-zinc-700">
+                  <a href={val.source} target="_blank">
                     source
                   </a>
                 </div>
