@@ -6,6 +6,7 @@ import jinju2 from "../assets/img/jinju2.jpg";
 import jinju3 from "../assets/img/jinju3.jpg";
 import jinju4 from "../assets/img/jinju4.png";
 import Projects from "./Project";
+import Contact from "./Contact";
 import { Github, LinkedinIcon, MailPlus } from "lucide-react";
 
 const home = () => {
@@ -54,14 +55,15 @@ const home = () => {
             <div className="h-[85%] w-[75%] flex justify-center items-center border-none rounded-full">
               <img
                 src={jinju}
-                alt=""
+                alt="hehe"
                 className="border-2 h-[100%] w-[100%] rounded-full border-none hover:animate-pulse"
               />
             </div>
           </div>
         </div>
       </div>
-      {/* <Projects/> */}
+      <Projects />
+      <Contact />
     </>
   );
 };
