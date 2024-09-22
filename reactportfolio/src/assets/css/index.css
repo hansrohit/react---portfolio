@@ -15,30 +15,35 @@
 .quack1{
     background: #E6DADA;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #274046, #E6DADA);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #274046, #E6DADA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-        
+    background: linear-gradient(to right, #274046, #E6DADA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */      
 }
 
 body {
+  background: #F0F2F0;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #000C40, #F0F2F0);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #000C40, #a6b4c1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ 
+
+    
     /* background-image: url('../img/jinju4.png'); */
         /* background: rgba(84,106,147,255); */
         /* padding-left:0px;*/
-        background-image: url('../img/bg11.jpg');
+        /* background-image: url('../img/bg11.jpg');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
         height: 100vh; 
         margin: 0px;
-        width: 100vw;
+        width: 100vw; */
     }  
 
 .quack{
-    background-image: url('../img/jinju4.png'); /* Path to your image */
-    background-size: cover; /* Ensures the image covers the entire area */
-    background-position: center; /* Centers the image */
-    background-repeat: no-repeat; /* Prevents the image from repeating */
-    height: 100vh; /* Makes sure the body height covers the full viewport */
-    margin: 0; /* Removes default margin */
+  background: rgba( 255, 255, 255, 0.25 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
 
