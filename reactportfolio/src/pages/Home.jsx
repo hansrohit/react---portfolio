@@ -18,8 +18,8 @@ const home = () => {
   return (
     <>
       <div className="h-screen w-full roboto-bold-italic flex flex-col justify-center items-center">
-        <div className="text-white justify-start flex items-center h-[80%] w-[95%]">
-          <div className="flex flex-col justify-end items-start h-[90%] w-[60%]">
+        <div className="text-white  justify-start flex items-center h-[80%] w-[95%]">
+          <div className="flex flex-col animater justify-end items-start h-[90%] w-[60%]">
             {/* <div className='border-2 h-[12%] flex justify-start items-center font-bold text-xl w-full'>Hello, It's me</div> */}
             <div className="h-[12%] w-full flex justify-start items-center font-bold text-4xl">
               Hello, I'm Hans Rohit
